@@ -1,0 +1,39 @@
+body{
+    background-color: #6b5948;
+    background-color: #f8a54a;
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.speed_detector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #e7581a;
+    border-radius: 2px;
+    box-shadow: 0 20px 12px 0 rgba(0, 0, 0, 0.26), 0 10px 8px 0 rgba(0, 0, 0, 0.404) inset;
+    
+    
+}
+button{
+    background-color: #6b5948;
+    border: none;
+    border-radius: 25px;
+    padding: 50px;
+    box-shadow: 0 20px 12px 0 rgba(0, 0, 0, 0.26), 0 10px 8px 0 rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    
+}
+p{
+    
+   text-decoration: wavy;
+    color: #f5e6d8;
+}

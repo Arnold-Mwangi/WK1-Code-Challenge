@@ -1,19 +1,23 @@
 // prompt user input
 function getUserInput(){
     const marks = prompt("Please Enter your score \'(0 < marks <=100)\':");
-    testInput(marks)
-    
+    if(marks == null){
+        window.alert("You altered the process")
+    }else{
+        testInput(marks)
+    }    
 
 }
 
 
 // validate user input
+
 function testInput(marks){
     if(!isNaN(marks) && marks > 0 && marks <= 100){
         window.alert("great! Click next to see you score");
         gradeScore(marks);
     }else{
-        window.alert("please a score that is a number greater than 0 and less or equal to 100")
+        window.alert("please Enter a score that is a number greater than 0 and less or equal to 100")
         getUserInput()
         
     }
